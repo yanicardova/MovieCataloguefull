@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".FavoriteFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="110dp"
+        android:src="@drawable/s" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:text="YANI CARDOVA 1910031802015"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
